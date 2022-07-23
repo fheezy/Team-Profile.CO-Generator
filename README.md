@@ -8,6 +8,19 @@ This application is focused on object-oriented programming, using Node.js it tak
 webpage. Displaying information for each employee given. 
 
 ## Table of Contents 
+- [Team-Profile.Co-Generator](#team-profileco-generator)
+- [Description](#description)
+- [Table-of-Contents](#table-of-contents)
+- [User-Story](#user-story)
+- [Mock-Up](#mock-up)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Test](#test)
+- [Questions](#questions)
+- [License](#license)
+- [Badge](#badges)
 
 ## User Story 
 
