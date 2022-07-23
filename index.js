@@ -11,7 +11,7 @@ const Manager = require("./lib/Manager");
 // Array for answers to questions
 const newStaffMemberData = [];
 
-// Array object questions asked in CLI to user
+// Questions asked on command line
 const questions = async () => {
   const answers = await inquirer
     .prompt([
@@ -41,7 +41,7 @@ const questions = async () => {
 
     
     //  console.log(answers);
-      // if manager selected, answer these specific question
+      // if manager selected, answer these question
       if (answers.role === "Manager") {
         const managerAns = await inquirer
           .prompt([
@@ -59,7 +59,7 @@ const questions = async () => {
           );
           newStaffMemberData.push(newManager);
           
-        // if engineer selected answer these set of questions
+        // if engineer selected answer these questions
       } else if (answers.role === "Engineer") {
         const githubAns = await inquirer
           .prompt([
@@ -77,7 +77,7 @@ const questions = async () => {
             );
             newStaffMemberData.push(newEngineer);
           
-        // if intern selected answer these set of questions
+        // if intern selected answer these questions
       } else if (answers.role === "Intern") {
         const internAns = await inquirer
           .prompt([
@@ -97,7 +97,7 @@ const questions = async () => {
           newStaffMemberData.push(newIntern);          
       } 
 
-}; //end of questions function
+}; //function towards the end of the question
 
 async function promptQuestions() {
   await questions()
