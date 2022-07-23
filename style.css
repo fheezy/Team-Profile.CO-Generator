@@ -3,8 +3,8 @@
     color: #ffffff;
   }
   
-  .team-area {
-    max-width: 1000px;
+  .team-section {
+    max-width: 900px;
     margin: 3em auto;
     flex-wrap: wrap;
   }
@@ -33,5 +33,7 @@
   .list-group-item {
     color: #000000;
     text-decoration: none;
+    border: 3px solid;
+    border-color: rgb(232, 226, 226);
   }
   
